@@ -7,25 +7,23 @@ builder.Services.AddControllers();
 builder.Services.AddHttpClient();
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
-
-
-// CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowLocalhost4200",
+    options.AddPolicy("AllowAll",
         policy =>
         {
-            policy.WithOrigins("http://localhost:4200")
+            policy.AllowAnyOrigin()
                   .AllowAnyHeader()
                   .AllowAnyMethod();
         });
 });
 
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsProduction())
 {
   
     app.UseSwagger();
@@ -33,8 +31,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseCors("AllowLocalhost4200");
-
+app.UseCors("AllowAll");
 app.UseAuthorization();
 
 app.MapControllers();
