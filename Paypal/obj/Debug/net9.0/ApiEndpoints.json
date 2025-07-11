@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "Paypal.Controllers.PaypalController",
+    "Method": "CreatePayment",
+    "RelativePath": "api/Paypal/CreatePayment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Paypal.Request.PayPalPaymentRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
