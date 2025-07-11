@@ -30,10 +30,10 @@ app.UseCors("AllowAll");
 app.UseAuthorization();
 
 app.MapControllers();
-if (app.Environment.IsProduction())
+/*if (app.Environment.IsProduction())
 {
 
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+}*/
 app.Run();
