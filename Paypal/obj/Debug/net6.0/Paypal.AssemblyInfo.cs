@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Paypal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d48e86902e4256ca1114a07332d64289151952f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73e97c3590b20d348ed2dec956e63b702b3de992")]
 [assembly: System.Reflection.AssemblyProductAttribute("Paypal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Paypal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
