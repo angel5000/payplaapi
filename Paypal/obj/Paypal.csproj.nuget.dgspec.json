@@ -10,7 +10,7 @@
         "projectUniqueName": "C:\\Users\\angeldvvp\\source\\repos\\payplaapi\\Paypal\\Paypal.csproj",
         "projectName": "Paypal",
         "projectPath": "C:\\Users\\angeldvvp\\source\\repos\\payplaapi\\Paypal\\Paypal.csproj",
-        "packagesPath": "C:\\Users\\angeldvvp\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\angeldvvp\\source\\repos\\payplaapi\\Paypal\\packages",
         "outputPath": "C:\\Users\\angeldvvp\\source\\repos\\payplaapi\\Paypal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
@@ -18,6 +18,7 @@
         ],
         "configFilePaths": [
           "C:\\Users\\angeldvvp\\source\\repos\\payplaapi\\Paypal\\NuGet.Config",
+          "C:\\Users\\angeldvvp\\source\\repos\\payplaapi\\NuGet.Config",
           "C:\\Users\\angeldvvp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
